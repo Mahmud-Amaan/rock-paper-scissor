@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(a.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.Game {
+    border: solid black;
+    background-color: blue;
+    background:transparent;
+    backdrop-filter: blur(30px);
+    color: var(--clr-neon);
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+  
+
+
+}
+
+.heads {
+    text-align: center;
+    font-size: 40px;
+}
+
+.moves {
+
+    width: 160px;
+    height: 160px;
+    vertical-align: top;
+    border: solid 5px black;
+    border-radius: 80px;
+    margin: 17px;
+    cursor: pointer;
+
+}
+
+.res {
+    width: 300px;
+    display: flex;
+    vertical-align: text-top;
+}
+.pChoice {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.cChoice {
+    text-align: center;
+    margin-left: 375px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.rcp {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.rr {
+    margin-left: 70px;
+}
+
+.pp {
+    margin-right: 0px;
+}
+
+.ss {
+    margin-right: 70px;
+}
+
+.res-css {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.score-css {
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 13px;
+    font-size: 17px;
+}
+rs-css {
+    size: 10px;
+    cursor: pointer;
+}
+

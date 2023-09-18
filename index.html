@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <div class="Game">
+    <h1 class="heads">Rock Paper Siccor Game</h1>
+
+    <div class="btn">
+    <button class="moves" onclick="play('rock')">
+        <img src="start/rock.png" alt="">
+    </button>
+  
+
+
+    <button class="moves" onclick="play('paper')">
+        <img src="start/paper.png" alt="">
+    </button>
+ 
+
+
+    <button class="moves" onclick="play('scissor')">
+        <img src="start/scissor.png" alt="">
+    </button>
+
+
+  <div class="paragraph">
+  <div class="rcp">
+    <span class="rr">Rock</span>
+    <span class="pp">Paper</span>
+    <span class="ss">Scissor</span>
+
+  </div>
+<div class="res">
+    <p class="playerChoice pChoice"></p>
+    <p class="vs"></p>
+    <p class="pcChoice cChoice" ></p>
+</div>
+
+    <p class="results res-css"></p>
+    <p class="scoress score-css"></p>
+
+  </div>
+  <button onclick="
+  score.wins = 0;
+  score.losses = 0;
+  score.draws = 0;
+  localStorage.removeItem('score');
+  updateScoreElement();
+
+" class="reset rs-css" style=" 
+margin-left: 555px;
+font-family: serif;
+
+
+">
+Reset
+</button>
+
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
